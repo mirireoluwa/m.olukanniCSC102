@@ -1,0 +1,36 @@
+ASK	   “ what problem would you like to solve? ”
+
+INPUT   the user inputs a value between 1, 2, and 3 for the problem they would like to solve.
+
+STORE   the user’s input as select
+
+IF  select  =  “ 1 ”	
+    THEN
+		OUTPUT  “ You have selected the Simple Interest formula ”
+			    “ The formula for Simple Interest is A = P(1 + (R/100) * T) ”
+
+INPUT  the user inputs the value for the principal, rate, and time they would like to be calculated
+		OUTPUT  “ The Simple Interest for the inputted values is: ”
+
+
+
+IF  select  =  “ 2 ”
+	THEN
+		OUTPUT  “ You have selected the Compound Interest formula ”
+			    “ The formula for Compound Interest is A = P(1 + R/n) ^ nt ”
+INPUT  the user inputs the value for the principal, rate, number of years, and time they would like to be calculated
+		OUTPUT  “The Compound Interest for the inputted values is: ”
+
+
+
+IF select  =  “ 3 ”
+	THEN
+		OUTPUT  “ You have selected the Annuity Plan formula ”
+			    “ The Annuity Plan formula is A = PMT * [(1 + R/n) ^ (nt) - 1] / (R/n) ”
+INPUT  the user inputs the values for the PMT, rate, number of years, and time they would like to be calculated
+		OUTPUT  “The Annuity plan is: ”
+ELSE
+		OUTPUT  “ You have made no selection ”
+
+
+OUTPUT  “ Thank you for using Mirireoluwa’s Program. ”
