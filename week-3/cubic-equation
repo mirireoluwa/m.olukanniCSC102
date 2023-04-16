@@ -1,0 +1,13 @@
+# Mirireoluwa’s Pseudocode for Cubic equation
+
+ASK	   “ Type in the value of a, b, and c”
+
+INPUT   the user inputs a value for a, b, and c which follows the format ‘x³ + ax² + bx + c’.
+
+STORE   the user’s inputs as a, b, and c respectively.
+
+DISPLAY	Cardano’s formula for q, r, s, and t respectively
+
+		OUTPUT  “ The roots of the cubic equation are: ”
+
+		OUTPUT  “ Thank you for using Mirireoluwa’s program”

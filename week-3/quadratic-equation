@@ -1,0 +1,27 @@
+# Mirireoluwa's Progeam to solve a quadratic equation
+
+ASK	   “ Type in values for a, b, and c respectively”
+
+INPUT   user inputs a value for a, b, and c respectively.
+
+STORE   user’s input as “a”, “b”, and “c”
+
+DISPLAY 	discriminant formula to solve for the roots of the quadratic equation
+
+STORE   discriminant as “d”
+
+IF  d >  “ 0 ”	THEN	   	 
+		OUTPUT  “ The roots of the quadratic equation are ‘Real and Unequal’ and they are: ”
+
+
+
+IF  d  <  “ 0 ”
+	THEN
+		OUTPUT  “ The roots of the quadratic equation are ‘Imaginary’ and they are: ”
+
+IF  d  =  “ 0 ”
+	THEN
+		OUTPUT  “ The roots of the quadratic equation are ‘Real and Equal’ and they are: ”
+
+ELSE
+		OUTPUT  “ Your input is invalid ”
